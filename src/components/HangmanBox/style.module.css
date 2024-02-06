@@ -1,0 +1,15 @@
+.hang-man {
+  width: 100%;
+  text-align: center;
+}
+.hang-man h4 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (max-width: 786px) {
+  .hang-man h4 {
+    margin-top: 10px;
+  }
+}

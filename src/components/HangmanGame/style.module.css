@@ -1,0 +1,20 @@
+.container {
+  width: 850px;
+  background-color: #fff;
+  display: flex;
+  gap: 70px;
+  padding: 70px 30px 30px 80px;
+  border-radius: 7px;
+}
+@media (max-width: 786px) {
+  .container {
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
